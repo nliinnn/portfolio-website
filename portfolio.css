@@ -1,0 +1,353 @@
+body {
+    background-color: #fdfdfb;
+    color: rgb(87, 86, 86);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 60%;
+    margin-top: 2vh;
+    margin: auto;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons a, .footer-icons a, .school:link {
+    color: rgb(180, 179, 179);
+    text-decoration: none;
+}
+  
+.icons a, .footer-icons a, .school:visited {
+    color: rgb(180, 179, 179);
+    text-decoration: none;
+}
+  
+.icons a, .footer-icons a, .school:hover {
+    color: rgb(180, 179, 179);
+    text-decoration: underline;
+}
+  
+.icons a, .footer-icons a, .school:active {
+    color: rgb(180, 179, 179);
+    text-decoration: underline;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 12px;
+    font-size: 15px;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    background-color: #f5f5ee;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-right: 25%;
+    overflow: hidden;
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+body {
+    margin: 0px;
+}
+
+.introduction {
+    width: 1000px;
+    margin: auto;
+    transform: scale(0.9);
+    margin-bottom: 278px;
+    margin-top: 12vh;
+}
+
+.introduction h1 {
+    font-size: 50px;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 400px;
+}
+
+.about img {
+    height: 30vh;
+    width: auto;
+    border-radius: 80px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border: 5px solid #C1E1C1;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+    float: left;
+    margin-left: 6vw;
+}
+
+.pictures img:hover {
+    transform: scale(1.05);
+}
+
+.introduction p {
+    font-family: "Bellota Text", sans-serif;
+    width: 600px;
+    margin-right: 0;
+    font-size: 22px;
+}
+
+#contactbutton {
+    color: white;
+    background-color: pink;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: "Bellota Text", sans-serif;
+    text-decoration: none;
+}
+
+#contactbutton:hover {
+    transform: scale(1.2);
+}
+
+.about {
+    margin: auto;
+    width: 76vw;
+    margin-bottom: 12vh;
+}
+
+.background-about {
+    height: 90vh;
+    margin-bottom: 2vh;
+    padding: 10vh;
+    transform: scale(0.85);
+}
+
+.about p {
+    text-align: center;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 24vw;
+    float: right;
+    margin-right: 4vw;
+}
+
+.description p {
+    text-align: center;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 40vw;
+    float: right;
+    margin-right: 4vw;
+}
+
+.about h1 {
+    margin-left: 8vw;
+    text-align: left;
+    font-size: 46px;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    margin-bottom: 20vh;
+}
+
+.projects h1 {
+    transform: scale(0.85);
+    text-align: right;
+    font-size: 46px;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    margin-bottom: 4vh;
+    margin-right: 3vw;
+}
+
+.projects a {
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+}
+
+.languages, .os {
+    color: #0e0d0d;
+    font-weight: 700;
+}
+
+.work {
+    transform: scale(0.78);
+    height: 34vh;
+    display: flexbox;
+    border-radius: 70px;
+    margin-bottom: 28vh;
+    margin-top: 12vh;
+    border: 2px solid gray;
+}
+
+.projects {
+    font-size: 26px;
+    width: 60%;
+    margin: auto;
+}
+
+.work:hover {
+    transform: scale(0.86);
+}
+
+.work img {
+    float: left;
+    height: 30vh;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.description h2 {
+    font-family: "Fraunces", serif;
+    float: left;
+    margin-left: 13vw;
+    margin-top: 4vh;
+    width: 20vw;
+    height: 2vh;
+}
+
+.description p {
+    width: 36vw;
+    float: right;
+    margin-right: 4vw;
+}
+
+.description div {
+    display: inline;
+    float: right;
+    margin-right: 1vw;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 8px 10px;
+    font-family: "Bellota Text", sans-serif;
+}
+
+.work-elements {
+    position: relative;
+    left: -9vw;
+}
+
+.footer {
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    margin: auto;
+    width: 60%;
+    font-family: "Fraunces", serif;
+}
+
+.footer p {
+    margin-left: 8vw;
+    font-size: 18px;
+}
+
+.footer-icons {
+    margin-left: 8vw;
+
+}
+
+.footer i {
+    margin-right: 1vw;
+    margin-bottom: 10vh;
+}
+
+.navelements {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1440px) and (orientation: landscape) {
+    .introduction {
+        transform: scale(0.8);
+        width: 800px;
+    }
+
+    .introduction p {
+        width: 400px;
+    }
+
+    .background-about {
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+
+    .pictures {
+        margin-top: 0px;
+        height: 200px;
+        width: auto;
+        position: relative;
+        right: -70px;
+    }
+
+    .about p {
+        width: 800px;
+        height: auto;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .projects {
+        width: 800px;
+        position: relative;
+        left: -34px;
+    }
+
+    .projects h1 {
+        position: relative;
+        right: -100px;
+    }
+
+    .work {
+        transform: scale(0.8);
+        width: 900px;
+        height: 400px;
+    }
+
+    .work h2 {
+        float: left;
+        width: 380px;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    
+    .work img {
+        height: 200px;
+        width: auto;
+        margin-bottom: 200px;
+    }
+
+    .work p {
+        position: relative;
+        top: -40px;
+    }
+
+    .work-elements {
+        float: right;
+        padding-left: 50px;
+        width: fit-content;
+        height: 120px;
+        position: relative;
+        left: -80px;
+        margin-bottom: 20px;
+    }
+
+}
